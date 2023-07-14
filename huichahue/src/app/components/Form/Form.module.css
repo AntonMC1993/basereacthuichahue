@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+.container {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+.bodyform {
+  background-image: url("/huichahue/public/background.jpg");
+  background-color: rgba(255, 255, 255, 0.55);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.form {
+  background-color: rgba(255, 255, 255, 0.55);
+}
+
+.submit-button {
+  width: 10%;
+  background-color: #000000b0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+}
+
+.submit-button:hover {
+  background-color: #e08e00;
+  color: #24262b;
+}
